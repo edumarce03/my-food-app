@@ -1,7 +1,9 @@
 export default function App() {
   return (
-    <h1 className="text-3xl  underline text-red-800 text-center font-inter">
-      Integración de Tailwind CSS v.3 con React
-    </h1>
+    <div>
+      <h1 className="font-inter">Welcome to the App</h1>
+      <p>This is a simple React application.</p>
+      <button className=" bg-gray-50 ">Click Me</button>
+    </div>
   );
 }
